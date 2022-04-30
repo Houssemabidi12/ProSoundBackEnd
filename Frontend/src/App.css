@@ -1,0 +1,232 @@
+/*.App {
+  background-color: #3d9970;
+  min-height: 100vh;
+}
+
+.App header {
+  background: white;
+}
+
+.App__header {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  height: 4em;
+}
+
+.App__switcher {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+}
+
+.App__switcher-switch {
+  margin: 0 0.25rem;
+}
+*/
+
+
+
+
+
+/*----------------------------
+    The file upload form
+-----------------------------*/
+
+
+#upload{
+    font-family:'PT Sans Narrow', sans-serif;
+    background-color:none;
+
+  
+
+    width:0;
+    height: 0;  
+    border-radius:3px;
+
+    margin:0px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#drop{
+    background-color: #2E3134;
+    padding: 40px 50px;
+    margin-bottom: 5px;
+    border: 20px solid rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 60px;
+    height: 15px;
+    font-size:14px;
+    font-weight:bold;
+    color:#7f858a;
+}
+
+#drop a{
+    background-color:rgba(0, 99, 71, 0.5);
+    padding:12px 26px;
+    color:#fff;
+    font-size:14px;
+    border-radius:2px;
+    cursor:pointer;
+    display:inline-block;
+    margin-top:5px;
+    line-height:1;
+    margin-left: -50%;
+}
+
+#drop a:hover{
+    background-color:rgba(0, 133, 71, 0.7);
+}
+
+#drop input{
+    display:none;
+}
+#drop div div{
+    margin-top:-50px
+}
+
+#upload ul{
+    list-style:none;
+    margin:0 -50px;
+    /*border-top:1px solid #2b2e31;
+    border-bottom:1px solid #3d4043;*/
+
+}
+
+#upload ul #lyricsLI{
+
+    background-color:#333639;
+
+    background-image:-webkit-linear-gradient(top, #333639, #303335);
+    background-image:-moz-linear-gradient(top, #333639, #303335);
+    background-image:linear-gradient(top, #333639, #303335);
+
+    border-top:1px solid #3d4043;
+    border-bottom:1px solid #2b2e31;
+    padding:15px;
+    height: 20px;
+
+    position: relative;
+}
+#upload ul li{
+
+    background-color:#333639;
+
+    background-image:-webkit-linear-gradient(top, #333639, #303335);
+    background-image:-moz-linear-gradient(top, #333639, #303335);
+    background-image:linear-gradient(top, #333639, #303335);
+
+    border-top:1px solid #3d4043;
+    border-bottom:1px solid #2b2e31;
+    padding:15px;
+    height: 50px;
+    margin-right:40px ;
+    position: relative;
+}
+
+#upload ul li input{
+    display: none;
+}
+
+#upload ul li p{
+    /*width: 144px;*/
+    overflow: hidden;
+    white-space: nowrap;
+    color: #EEE;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    /*top: 10px;
+    left: 100px;*/
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#upload ul li button{
+
+
+    appearance: none;
+    background-color: #FFFFFF;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -.24px;
+
+    outline: none;
+    padding: 0.7rem 1.3rem;
+    quotes: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 20px;
+    margin-left: 64px;
+
+
+
+
+}
+#upload ul li button:hover {
+    background-color: #FFC229;
+    box-shadow: #FF6314 0 -6px 8px inset;
+    transform: scale(1.125);
+}
+
+#upload ul li button:active {
+    transform: scale(1.7);
+}
+
+
+#upload ul li i{
+    font-weight: normal;
+    font-style:normal;
+    color:red;
+    display:block;
+}
+
+#upload ul li canvas{
+    top: 15px;
+    left: 32px;
+    position: absolute;
+}
+
+#upload ul li span{
+    width: 15px;
+    height: 12px;
+  
+    position: absolute;
+    top: 34px;
+    right: 33px;
+    cursor:pointer;
+}
+
+#upload ul li.working span{
+    height: 16px;
+    background-position: 0 -12px;
+}
+
+#upload ul li.error p{
+    color:red;
+}
+
+
+
+

@@ -1,0 +1,71 @@
+$avatar-size: 32px;
+$body-background: #353535;
+
+@font-face {
+  font-family: "Baloo Paaji",cursive;
+
+  font-weight: 300;
+  src: local("Lato Light Italic"), local("Lato-LightItalic"),
+  url(https://fonts.gstatic.com/s/ubuntucondensed/v8/u-4k0rCzjgs5J7oXnJcM_0kACGMtT-Dfqw.woff2)
+  format("woff2");
+}
+
+
+
+
+
+.scoreT {
+  position: absolute;
+  text-align: center;
+  margin-left: 15%;
+  margin-top: 20%;
+  h1 {
+    color: red;
+    font-size: 92px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Baloo Paaji", cursive;
+    background: linear-gradient(to left, #7f8e89 10%, #6f827c 20%, #627871 30%,#5a726a 40%, #526d64 50%, #4c6d62 60%,#5a726a 70%, #627871 80%, #6f827c 90%,#7f8e89 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1s linear infinite;
+    display: inline-block;
+  }
+}
+.scoretitleT {
+
+  position: absolute;
+  text-align: center;
+  margin-left: 12%;
+  margin-top: 19%;
+  h1 {
+    color: red;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Baloo Paaji", cursive;
+    background: linear-gradient(to left, #3f8597 10%, #357f92 30%, #29768a 50%,#23768c 70%,#16748c 80%,#29768a 90%,#357f92 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 5s linear infinite;
+    display: inline-block;
+  }
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
